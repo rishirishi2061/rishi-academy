@@ -118,6 +118,29 @@
 <footer>
     <p>© 2026 Rishi Academy | All Rights Reserved</p>
 </footer>
+<script>
+function searchSubject() {
+    let input = document.getElementById("searchInput").value.toLowerCase();
 
+    if(input.includes("biology")){
+        window.location.href="biology.html";
+    }
+    else if(input.includes("physics")){
+        window.location.href="physics.html";
+    }
+    else if(input.includes("chemistry")){
+        window.location.href="chemistry.html";
+    }
+    else if(input.includes("math")){
+        window.location.href="mathematics.html";
+    }
+    else if(input.includes("english")){
+        window.location.href="english.html";
+    }
+    else{
+        alert("Subject not found!");
+    }
+}
+</script>
 </body>
 </html>
