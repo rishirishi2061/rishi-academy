@@ -11,7 +11,33 @@ header {
     text-align: center;
     padding: 20px;
 }
+.search-box{
+    text-align:center;
+    margin:20px;
+}
 
+.search-box input{
+    width:300px;
+    max-width:80%;
+    padding:10px;
+    font-size:16px;
+    border:2px solid #007BFF;
+    border-radius:8px;
+}
+
+.search-box button{
+    padding:10px 18px;
+    margin-left:8px;
+    background:#007BFF;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.search-box button:hover{
+    background:#0056b3;
+}
 nav {
     background: #084298;
     padding: 12px;
